@@ -1,0 +1,19 @@
+#app_directory{
+  font-family: 'Open Sans', sans-serif;
+  .main{
+    background-color: white;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    @import "sidebar";
+    @import "main_content";
+
+    &:after{
+      content:'';
+      clear: both;
+      display: table;
+    }
+  }
+}

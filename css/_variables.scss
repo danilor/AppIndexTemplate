@@ -1,0 +1,13 @@
+$breakpoint-tablet: 768px;
+$breakpoint-phone: 500px;
+
+/**
+Sidebar
+ */
+$sidebar_width: 250px;
+$left_hide: -28%;
+$tags_color: #4488BE;
+$sidebar_item_height: 100px; // This depends on how many items we want to store
+$sidebar_item_arrow_dimension: 70px;
+$sidebar_item_arrow_left: -15px;
+$sidebar_item_arrow_right: -33px;
